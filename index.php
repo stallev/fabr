@@ -59,7 +59,7 @@
 					<div class="row">
 						<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
 							<div class="preim-item">
-								<div class="preim-img preim-img--1" style="background-image:url('img/manufact.png')"></div>
+								<div class="preim-img preim-img--1"></div>
 								<p class="preim-ttl">Собственное <br>производство</p>
 							</div>
 						</div>
