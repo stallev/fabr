@@ -1695,3 +1695,196 @@ color:#000;
 	height:150px;
 	}
 }
+
+/*new styles*/
+.preim-img{
+}
+.preim-img--5{
+	background-image: url("img/manufact.png");
+}
+.preim-img--2{
+	background-image: url("img/3days.png");
+}
+.preim-img--3{
+	background-image: url("img/podarok.png");
+}
+.preim-img--4{
+	background-image: url("img/predoplata.png");
+}
+
+.menu__item--1{
+	background-image: url("img/menu1.png");
+}
+.menu__item--2{
+	background-image: url("img/menu2.png");
+}
+.menu__item--3{
+	background-image: url("img/menu3.png");
+}
+.menu__item--4{
+	background-image: url("img/menu4.png");
+}
+.menu__item--5{
+	background-image: url("img/menu5.png");
+}
+
+.uslugi-item--1{
+	background-image: url("img/uslugi1.jpg");
+}
+.uslugi-item--2{
+	background-image: url("img/uslugi2.jpg");
+}
+.uslugi-item--3{
+	background-image: url("img/uslugi3.jpg");
+}
+.uslugi-item--4{
+	background-image: url("img/uslugi4.jpg");
+}
+.uslugi-item--5{
+	background-image: url("img/uslugi5.jpg");
+}
+
+.zayavka-ttl__text{
+	text-transform: uppercase;
+}
+
+.stoimost-item--1{
+	background-image: url("img/stoimost1.png");
+}
+.stoimost-item--2{
+	background-image: url("img/stoimost2.png");
+}
+.stoimost-item--3{
+	background-image: url("img/stoimost3.png");
+}
+
+.stoimost-img--1{
+	background-image: url("img/stoimost-img1.jpg");
+}
+.stoimost-img--2{
+	background-image: url("img/stoimost-img2.jpg");
+}
+.stoimost-img--3{
+	background-image: url("img/stoimost-img3.jpg");
+}
+.stoimost-img--4{
+	background-image: url("img/stoimost-img4.jpg");
+}
+.stoimost-img--5{
+	background-image: url("img/stoimost-img5.jpg");
+}
+
+.garant-img--1{
+	background-image: url("img/garant1.png");
+}
+.garant-img--2{
+	background-image: url("img/garant2.png");
+}
+.garant-img--3{
+	background-image: url("img/garant3.png");
+}
+
+.jobs-img--44{
+	background-image: url("img/jobs44.jpg");
+}
+.jobs-img--55{
+	background-image: url("img/jobs55.jpg");
+}
+.jobs-img--66{
+	background-image: url("img/jobs66.jpg");
+}
+.jobs-img--77{
+	background-image: url("img/jobs77.jpg");
+}
+.jobs-img--5{
+	background-image: url("img/jobs5.jpg");
+}
+.jobs-img--1{
+	background-image: url("img/jobs1.jpg");
+}
+.jobs-img--2{
+	background-image: url("img/jobs2.jpg");
+}
+.jobs-img--3{
+	background-image: url("img/jobs3.jpg");
+}
+.jobs-img--4{
+	background-image: url("img/jobs4.jpg");
+}
+.jobs-img--99{
+	background-image: url("img/jobs99.jpg");
+}
+
+
+.jobs-big-img--44{
+	background-image: url("img/jobs44-big.jpg");
+}
+.jobs-big-img--55{
+	background-image: url("img/jobs55-big.jpg");
+}
+.jobs-big-img--66{
+	background-image: url("img/jobs66-big.jpg");
+}
+.jobs-big-img--77{
+	background-image: url("img/jobs77-big.jpg");
+}
+.jobs-big-img--5{
+	background-image: url("img/jobs5-big.jpg");
+}
+.jobs-big-img--1{
+	background-image: url("img/jobs1-big.jpg");
+}
+.jobs-big-img--2{
+	background-image: url("img/jobs2-big.jpg");
+}
+.jobs-big-img--3{
+	background-image: url("img/jobs3-big.jpg");
+}
+.jobs-big-img--4{
+	background-image: url("img/jobs4-big.jpg");
+}
+.jobs-big-img--99{
+	background-image: url("img/jobs99-big.jpg");
+}
+
+.clear{
+	clear: both;
+}
+
+.svoe-item-img--1{
+	background-image: url("img/svoe1.jpg");
+}
+.svoe-item-img--2{
+	background-image: url("img/svoe2.jpg");
+}
+.svoe-item-img--3{
+	background-image: url("img/svoe3.jpg");
+}
+
+.cycle-img--1{
+	background-image: url("img/cycle1.png");
+}
+.cycle-img--2{
+	background-image: url("img/cycle2.png");
+}
+.cycle-img--3{
+	background-image: url("img/cycle3.png");
+}
+
+.zayavka-open-ttl__text{
+	color:#00c0ff;
+}
+
+.zayavka-open-txt--musor{
+	background-image: url("img/musor.png");
+}
+.zayavka-open-txt--zamer{
+	background-image: url("img/zamer.png");
+}
+.zayavka-open-txt--musor{
+	background-image: url("img/musor.png");
+}
+
+.contacts-address__phone-code{
+	color:#00c0ff;
+}

@@ -176,7 +176,7 @@ var submited=false;
 						form.trigger('reset');
 						button.closest('.modal').modal('hide');
 					}else{
-						alert("Ваше сообщение НЕ отпрвлено. Пожалуйста, повторите отправку");
+						alert("Ваше сообщение НЕ отправлено. Пожалуйста, повторите отправку");
 					}
 				},
 				error: function(){
