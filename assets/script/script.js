@@ -61,6 +61,30 @@ var submited=false;
 		$("#jobs-popup").modal();
 	});
 
+
+	//Добавленный код
+	/*$(".zayavka-open-form").submit(function() {
+		var str = $(this).serialize();
+		$.ajax({
+			type: "POST",
+			url: "contact.php",
+			data: str,
+			success: function(msg) {
+				if(msg == 'OK') {
+					result = '<p>Ваш заказ принят</p>';
+					$(".fields").hide();
+				} else {
+					result = msg;
+				}
+			$('.note').html(result);
+			}
+		});
+		return false;
+		});
+		});
+		*/
+		
+
 	$(".zayavka-open-btn, .predl-btn").click(function(){
 		var button = $(this);
 		var buttontext=button.find('div span').text();
@@ -86,14 +110,20 @@ var submited=false;
 		
 		if(valid){
 			var form_data = form.serialize();
+			console.log(form_data);
+			if(form_data){
+				console.log("Good");
+			}
 			button.find('div span').text('Отправка...');
 			$.ajax({
 				type: "POST",
 				url: "mail-class.php",
 				data: form_data,
 				success: function(data){
+					console.log(!data);
 					button.find('div span').text(buttontext);
 					if(data){
+						console.log("Good23");
 						submited=true;
                       switch (flag){
                         case '7':
@@ -119,6 +149,7 @@ var submited=false;
 		}
 	});
 	
+
 	$(".modal-btn").click(function(){
 		var button = $(this);
 		var buttontext=button.find('div span').text();
