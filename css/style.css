@@ -49,7 +49,7 @@ background-position:top center;
 }
 
 .bg1{
-background-image:url('img/bg1.jpg');
+background-image:url('../img/bg1.jpg');
 }
 
 header{
@@ -82,7 +82,7 @@ width:40%;
 
 .logo{
 display: inline-block;
-background-image: url('img/logo.png');
+background-image: url('../img/logo.png');
 background-repeat: no-repeat;
 background-position: left center;
 padding-left: 70px;
@@ -105,7 +105,7 @@ display: inline-block;
 font-size: 20px;
 font-weight: 700;
 color: #000;
-background-image: url('img/phone.png');
+background-image: url('../img/phone.png');
 background-repeat: no-repeat;
 background-position: left center;
 padding-left: 19px;
@@ -209,12 +209,12 @@ margin:0 1%;
 }
 
 .zamer-btn > div > span{
-background-image: url('img/ruler.png');
+background-image: url('../img/ruler.png');
 padding-left:30px;
 }
 
 .callback-btn > div > span{
-background-image: url('img/phone2.png');
+background-image: url('../img/phone2.png');
 padding-left:30px;
 }
 
@@ -286,13 +286,13 @@ padding-top:15px;
 }
 
 .bg2{
-background-image:url('img/bg2.png');
+background-image:url('../img/bg2.png');
 padding-top:30px;
 background-color:#fff;
 }
 
 .bg22{
-background-image:url('img/bg22.jpg');
+background-image:url('../img/bg22.jpg');
 background-color:#fff;
 background-position:center bottom;
 min-height:482px;
@@ -347,7 +347,7 @@ padding-bottom:60px;
 width:50px;
 height:450px;
 float:left;
-background-image:url('img/uslugi.png');
+background-image:url('../img/uslugi.png');
 background-repeat:no-repeat;
 background-position:left center;
 }
@@ -496,7 +496,7 @@ padding-right:30px;
 }
 
 .bg3{
-background-image: url('img/bg3.jpg');
+background-image: url('../img/bg3.jpg');
 /*min-height: 1900px;*/
 background-position:bottom center;
 background-color:#f4f4f4;
@@ -631,7 +631,7 @@ display:none;
 }
 
 .bg4{
-background-image:url('img/bg4.jpg');
+background-image:url('../img/bg4.jpg');
 min-height:1550px;
 background-position:center bottom;
 }
@@ -760,7 +760,7 @@ width:100%;
 display:inline-block;
 width:350px;
 height:17px;
-background-image:url('img/cycle-arrow.png');
+background-image:url('../img/cycle-arrow.png');
 background-repeat:no-repeat;
 background-position:center center;
 }
@@ -844,7 +844,7 @@ height: 550px;
 .contacts{
 width:100%;
 position:absolute;
-background-image:url('img/bg5.png');
+background-image:url('../img/bg5.png');
 background-repeat:no-repeat;
 background-position:center top;
 height:550px;
@@ -902,7 +902,7 @@ color:#00c0ff;
 }
 
 .bg6{
-background-image:url('img/bg6.jpg');
+background-image:url('../img/bg6.jpg');
 padding-top:180px;
 min-height:602px;
 }
@@ -941,12 +941,12 @@ width:60%;
 
 .bg7{
 min-height:268px;
-background-image:url('img/bg7.jpg');
+background-image:url('../img/bg7.jpg');
 }
 
 .ftr-logo{
 display: inline-block;
-background-image: url('img/logo.png');
+background-image: url('../img/logo.png');
 background-repeat: no-repeat;
 background-position: left center;
 padding-left: 70px;
@@ -967,7 +967,7 @@ text-decoration:none;
 }
 
 .ftr-place{
-background-image:url('img/mark.png');
+background-image:url('../img/mark.png');
 background-repeat:no-repeat;
 background-position: left top 5px;
 padding-left:32px;
@@ -981,7 +981,7 @@ display:block;
 }
 
 .ftr-time{
-background-image:url('img/clock.png');
+background-image:url('../img/clock.png');
 background-repeat:no-repeat;
 background-position: left top 5px;
 padding-left:32px;
@@ -1012,7 +1012,7 @@ display: inline-block;
 font-size: 20px;
 font-weight: 700;
 color: #000;
-background-image: url('img/ftr-phone.png');
+background-image: url('../img/ftr-phone.png');
 background-repeat: no-repeat;
 background-position: left center;
 padding-left: 25px;
@@ -1111,7 +1111,7 @@ margin-top: 0;
 .owl-nav [class*='owl-']{
 height:20px;
 width:15px;
-background-image:url('img/arrows.png');
+background-image:url('../img/arrows.png');
 background-repeat:no-repeat;
 margin:0;
 }
@@ -1698,48 +1698,48 @@ color:#000;
 
 /*new styles*/
 .preim-img--1{
-	background-image: url("img/manufact.png");
+	background-image: url("../img/manufact.png");
 }
 .preim-img--2{
-	background-image: url("img/3days.png");
+	background-image: url("../img/3days.png");
 }
 .preim-img--3{
-	background-image: url("img/podarok.png");
+	background-image: url("../img/podarok.png");
 }
 .preim-img--4{
-	background-image: url("img/predoplata.png");
+	background-image: url("../img/predoplata.png");
 }
 
 .menu__item--1{
-	background-image: url("img/menu1.png");
+	background-image: url("../img/menu1.png");
 }
 .menu__item--2{
-	background-image: url("img/menu2.png");
+	background-image: url("../img/menu2.png");
 }
 .menu__item--3{
-	background-image: url("img/menu3.png");
+	background-image: url("../img/menu3.png");
 }
 .menu__item--4{
-	background-image: url("img/menu4.png");
+	background-image: url("../img/menu4.png");
 }
 .menu__item--5{
-	background-image: url("img/menu5.png");
+	background-image: url("../img/menu5.png");
 }
 
 .uslugi-item--1{
-	background-image: url("img/uslugi1.jpg");
+	background-image: url("../img/uslugi1.jpg");
 }
 .uslugi-item--2{
-	background-image: url("img/uslugi2.jpg");
+	background-image: url("../img/uslugi2.jpg");
 }
 .uslugi-item--3{
-	background-image: url("img/uslugi3.jpg");
+	background-image: url("../img/uslugi3.jpg");
 }
 .uslugi-item--4{
-	background-image: url("img/uslugi4.jpg");
+	background-image: url("../img/uslugi4.jpg");
 }
 .uslugi-item--5{
-	background-image: url("img/uslugi5.jpg");
+	background-image: url("../img/uslugi5.jpg");
 }
 
 .zayavka-ttl__text{
@@ -1747,102 +1747,102 @@ color:#000;
 }
 
 .stoimost-item--1{
-	background-image: url("img/stoimost1.png");
+	background-image: url("../img/stoimost1.png");
 }
 .stoimost-item--2{
-	background-image: url("img/stoimost2.png");
+	background-image: url("../img/stoimost2.png");
 }
 .stoimost-item--3{
-	background-image: url("img/stoimost3.png");
+	background-image: url("../img/stoimost3.png");
 }
 
 .stoimost-img--1{
-	background-image: url("img/stoimost-img1.jpg");
+	background-image: url("../img/stoimost-img1.jpg");
 }
 .stoimost-img--2{
-	background-image: url("img/stoimost-img2.jpg");
+	background-image: url("../img/stoimost-img2.jpg");
 }
 .stoimost-img--3{
-	background-image: url("img/stoimost-img3.jpg");
+	background-image: url("../img/stoimost-img3.jpg");
 }
 .stoimost-img--4{
-	background-image: url("img/stoimost-img4.jpg");
+	background-image: url("../img/stoimost-img4.jpg");
 }
 .stoimost-img--5{
-	background-image: url("img/stoimost-img5.jpg");
+	background-image: url("../img/stoimost-img5.jpg");
 }
 
 .garant-img--1{
-	background-image: url("img/garant1.png");
+	background-image: url("../img/garant1.png");
 }
 .garant-img--2{
-	background-image: url("img/garant2.png");
+	background-image: url("../img/garant2.png");
 }
 .garant-img--3{
-	background-image: url("img/garant3.png");
+	background-image: url("../img/garant3.png");
 }
 
 .jobs-img--44{
-	background-image: url("img/jobs44.jpg");
+	background-image: url("../img/jobs44.jpg");
 }
 .jobs-img--55{
-	background-image: url("img/jobs55.jpg");
+	background-image: url("../img/jobs55.jpg");
 }
 .jobs-img--66{
-	background-image: url("img/jobs66.jpg");
+	background-image: url("../img/jobs66.jpg");
 }
 .jobs-img--77{
-	background-image: url("img/jobs77.jpg");
+	background-image: url("../img/jobs77.jpg");
 }
 .jobs-img--5{
-	background-image: url("img/jobs5.jpg");
+	background-image: url("../img/jobs5.jpg");
 }
 .jobs-img--1{
-	background-image: url("img/jobs1.jpg");
+	background-image: url("../img/jobs1.jpg");
 }
 .jobs-img--2{
-	background-image: url("img/jobs2.jpg");
+	background-image: url("../img/jobs2.jpg");
 }
 .jobs-img--3{
-	background-image: url("img/jobs3.jpg");
+	background-image: url("../img/jobs3.jpg");
 }
 .jobs-img--4{
-	background-image: url("img/jobs4.jpg");
+	background-image: url("../img/jobs4.jpg");
 }
 .jobs-img--99{
-	background-image: url("img/jobs99.jpg");
+	background-image: url("../img/jobs99.jpg");
 }
 
 
 .jobs-big-img--44{
-	background-image: url("img/jobs44-big.jpg");
+	background-image: url("../img/jobs44-big.jpg");
 }
 .jobs-big-img--55{
-	background-image: url("img/jobs55-big.jpg");
+	background-image: url("../img/jobs55-big.jpg");
 }
 .jobs-big-img--66{
-	background-image: url("img/jobs66-big.jpg");
+	background-image: url("../img/jobs66-big.jpg");
 }
 .jobs-big-img--77{
-	background-image: url("img/jobs77-big.jpg");
+	background-image: url("../img/jobs77-big.jpg");
 }
 .jobs-big-img--5{
-	background-image: url("img/jobs5-big.jpg");
+	background-image: url("../img/jobs5-big.jpg");
 }
 .jobs-big-img--1{
-	background-image: url("img/jobs1-big.jpg");
+	background-image: url("../img/jobs1-big.jpg");
 }
 .jobs-big-img--2{
-	background-image: url("img/jobs2-big.jpg");
+	background-image: url("../img/jobs2-big.jpg");
 }
 .jobs-big-img--3{
-	background-image: url("img/jobs3-big.jpg");
+	background-image: url("../img/jobs3-big.jpg");
 }
 .jobs-big-img--4{
-	background-image: url("img/jobs4-big.jpg");
+	background-image: url("../img/jobs4-big.jpg");
 }
 .jobs-big-img--99{
-	background-image: url("img/jobs99-big.jpg");
+	background-image: url("../img/jobs99-big.jpg");
 }
 
 .clear{
@@ -1850,23 +1850,23 @@ color:#000;
 }
 
 .svoe-item-img--1{
-	background-image: url("img/svoe1.jpg");
+	background-image: url("../img/svoe1.jpg");
 }
 .svoe-item-img--2{
-	background-image: url("img/svoe2.jpg");
+	background-image: url("../img/svoe2.jpg");
 }
 .svoe-item-img--3{
-	background-image: url("img/svoe3.jpg");
+	background-image: url("../img/svoe3.jpg");
 }
 
 .cycle-img--1{
-	background-image: url("img/cycle1.png");
+	background-image: url("../img/cycle1.png");
 }
 .cycle-img--2{
-	background-image: url("img/cycle2.png");
+	background-image: url("../img/cycle2.png");
 }
 .cycle-img--3{
-	background-image: url("img/cycle3.png");
+	background-image: url("../img/cycle3.png");
 }
 
 .zayavka-open-ttl__text{
@@ -1874,13 +1874,13 @@ color:#000;
 }
 
 .zayavka-open-txt--musor{
-	background-image: url("img/musor.png");
+	background-image: url("../img/musor.png");
 }
 .zayavka-open-txt--zamer{
-	background-image: url("img/zamer.png");
+	background-image: url("../img/zamer.png");
 }
 .zayavka-open-txt--musor{
-	background-image: url("img/musor.png");
+	background-image: url("../img/musor.png");
 }
 
 .contacts-address__phone-code{

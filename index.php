@@ -1,15 +1,16 @@
+
 <!DOCTYPE html>
 <html lang="ru-RU">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
-		<link rel="stylesheet" href="assets/owl-carousel2/owl.carousel.min.css">
-		<link rel="stylesheet" type="text/css" href="assets/lightbox/lightbox.css">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/css/owl.carousel.min.css">
+		<link rel="stylesheet" type="text/css" href="/css/lightbox.css">
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 		<script src="assets/jquery/jquery-1.11.3.min.js"></script>
-		<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyCHAlulVFUKwwEnyJ-B18d1psZM88aQKwU"></script>
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDBLG2akZzcsOAKn8IaMjagA1RFXcNeVy0"></script>
 		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -516,13 +517,13 @@
 				<script>
 				jQuery(function ($) {
 					if ($(window).width() > '1200'){
-						var haightAshbury = new google.maps.LatLng(54.720798, 55.952117);
+						var haightAshbury = new google.maps.LatLng(53.9025639,30.3260358);
 					}
 					if (($(window).width() <= '1200')&($(window).width() > '991')){
-						var haightAshbury = new google.maps.LatLng(54.720767, 55.953212);
+						var haightAshbury = new google.maps.LatLng(53.9025639,30.3260358);
 					}
 					if ($(window).width() <= '991'){
-						var haightAshbury = new google.maps.LatLng(54.7207732, 55.9556472);
+						var haightAshbury = new google.maps.LatLng(53.9025639,30.3260358);
 					}
 					var mapOptions = {
 						zoom: 17,
@@ -534,13 +535,7 @@
 						mapTypeId: google.maps.MapTypeId.ROADMAP
 					};    
 					map = new google.maps.Map(document.getElementById("gmap"), mapOptions);
-					var markerPoz = new google.maps.LatLng(54.7207732, 55.9556472);
-					marker = new google.maps.Marker({
-						position: markerPoz,
-						map: map,
-						title: "Уфимская фабрика окон. Октябрьской революции, 34",
-						zIndex: 999
-					});
+					var markerPoz = new google.maps.LatLng(53.9025639,30.3260358);
 				});
 				</script>
 			</div>
@@ -764,65 +759,15 @@
 			</div>
 		</div>
 
-		<script src="assets/bootstrap/bootstrap.min.js"></script>
-		<script src="assets/lightbox/lightbox.js"></script>
-		<script src="assets/owl-carousel2/owl.carousel.min.js"></script>
-		<script src="assets/jquery/jquery.inputmask.js"></script>
-		<script src="assets/script/script.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/lightbox.js"></script>
+		<script src="/js/owl.carousel.min.js"></script>
+		<script src="/js/jquery.inputmask.js"></script>
+		<script src="/js/script.js"></script>
 
-		<!-- Yandex.Metrika counter
-		<script type="text/javascript">
-				(function (d, w, c) {
-						(w[c] = w[c] || []).push(function() {
-								try {
-										w.yaCounter45140673 = new Ya.Metrika({
-												id:45140673,
-												clickmap:true,
-												trackLinks:true,
-												accurateTrackBounce:true,
-												webvisor:true
-										});
-								} catch(e) { }
-						});
-
-						var n = d.getElementsByTagName("script")[0],
-								s = d.createElement("script"),
-								f = function () { n.parentNode.insertBefore(s, n); };
-						s.type = "text/javascript";
-						s.async = true;
-						s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-						if (w.opera == "[object Opera]") {
-								d.addEventListener("DOMContentLoaded", f, false);
-						} else { f(); }
-				})(document, window, "yandex_metrika_callbacks");
-		</script>
-		<noscript><div><img src="https://mc.yandex.ru/watch/45140673" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-		<!-- /Yandex.Metrika counter -->
-			
-		<!-- Facebook Pixel Code
-			<script>
-			!function(f,b,e,v,n,t,s)
-			{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-			n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-			if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-			n.queue=[];t=b.createElement(e);t.async=!0;
-			t.src=v;s=b.getElementsByTagName(e)[0];
-			s.parentNode.insertBefore(t,s)}(window,document,'script',
-			'https://connect.facebook.net/en_US/fbevents.js');
-			fbq('init', '243000936813141'); 
-			fbq('track', 'PageView');
-			</script>
-			<noscript>
-			<img height="1" width="1" 
-			src="https://www.facebook.com/tr?id=243000936813141&ev=PageView
-			&noscript=1"/>
-			</noscript>
-		<!-- End Facebook Pixel Code -->
+		
 		<!-- calltouch -->
-		<script type="text/javascript">
-				(function(w,d,n,c){w.CalltouchDataObject=n;w[n]=function(){w[n]["callbacks"].push(arguments)};if(!w[n]["callbacks"]){w[n]["callbacks"]=[]}w[n]["loaded"]=false;if(typeof c!=="object"){c=[c]}w[n]["counters"]=c;for(var i=0;i<c.length;i+=1){p(c[i])}function p(cId){var a=d.getElementsByTagName("script")[0],s=d.createElement("script"),i=function(){a.parentNode.insertBefore(s,a)};s.type="text/javascript";s.async=true;s.src="https://mod.calltouch.ru/init.js?id="+cId;if(w.opera=="[object Opera]"){d.addEventListener("DOMContentLoaded",i,false)}else{i()}}})(window,document,"ct","ghileuab");
-		</script>
+		
 		<!-- calltouch -->
 
 
